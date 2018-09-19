@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+		  integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,500,800,900|Montserrat:400,500,800"
+		  rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"> -->
+	<link rel="stylesheet" href="./css/blocks.css">
+	<!-- <link rel="stylesheet" href="./css/theme-style.css"> -->
+	<link rel="stylesheet" href="./css/style.css?v=6">
+	<link rel="stylesheet" href="./css/media.css?v=3">
+	<link rel="stylesheet" href="./css/responsive.css?v=2">
+	<title>OPN Platform</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125120357-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-125120357-1');
+	</script>
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '213629162797587');
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" style="display:none"
+			 src="https://www.facebook.com/tr?id=213629162797587&ev=PageView&noscript=1"
+		/>
+	</noscript>
+
+</head>
+
+<body>
+
+<div class="verified">
+	<img src="images/des/callisto-badge.png" alt="callisto">
+</div>
+
+<div class="popup-wrap">
+	<div class="overlay"></div>
+	<div class="popup">
+		<form class="popup_form">
+			<div class="popup__close">x</div>
+			<div class="popup_title">Get Whitelisted</div>
+			<div class="popup_sub-title">for Crowdsale</div>
+			<input type="text" required placeholder="First Name" name="firstname">
+			<input type="text" required placeholder="Last Name" name="lastname">
+			<input type="text" required placeholder="Email" name="email">
+			<input type="text" required placeholder="Enter your country" name="country">
+			<input type="number" min="50" max="100000" required placeholder="How many OPK Tokens would you buy" name="tokens">
+			<input type="submit" class="btn btn-blue js-submit-whitelist" value="Submit">
+		</form>
+	</div>
+</div>
+
+<div class="mob-nav">
+	<div class="mob-nav__close">x</div>
+	<div class="mob-nav__title">MENU</div>
+	<a href="#howworks">
+		<div class="mob-nav__item"><span>01</span> How it work</div>
+	</a>
+	<a href="#whitepapper">
+		<div class="mob-nav__item"><span>02</span> Whittepaper</div>
+	</a>
+	<a href="#roadmap">
+		<div class="mob-nav__item"><span>03</span> Roadmap</div>
+	</a>
+	<a href="#team">
+		<div class="mob-nav__item"><span>05</span> Team</div>
+	</a>
+</div>
+
+<div class="bg-wrapper1"></div>
+<nav class="navbar navbar-light bg-transparent">
+	<div class="container">
+		<div class="nav-link pl-0 header">
+			<div class="nav-kost">
+				<div class="menu-burger-wrap js-open-menu">
+					<img class="menu-burger" src="images/des/menu.png" alt="menu">
+				</div>
+				<div class="logo-tablet">
+					<img src="./images/logo.svg" class="" alt="Logo">
+				</div>
+			</div>
+			<div class="nav">
+				<a class="navbar-brand ml-0" href="#">
+					<img src="./images/logo.svg" class="nav-logo" alt="Logo">
+				</a>
+				<a href="#howworks" class="nav__item">How it work</a>
+				<a href="#whitepapper" class="nav__item">Whitepapper</a>
+				<a href="#roadmap" class="nav__item">Roadmap</a>
+				<a href="#team" class="nav__item">Team</a>
+			</div>
+			<div class="nav-right">
+				<div class="lang dn">EN
+					<div class="arrow">›</div>
+				</div>
+				<a href="http://www.opnplatform.com/" class="mvp" target="_blank" rel="nofollow">MVP</a>
+			</div>
+		</div>
+		<!-- <a href="https://bitcointalk.org/index.php?topic=4573009.0" target="_blank" class="btn btn-bluline">Join Bounty Campaign</a> -->
+	</div>
+</nav>
+
+<div class="nav-logo-mob-wrap">
+	<img src="./images/logo.svg" class="nav-logo-mob" alt="Logo">
+</div>
+
+<div class="first-screen container d-flex justify-content-center mt-70 min-h">
+	<div class="row">
+		<div class="open col-12 col-sm-12 col-md-6 col-lg-6">
+			<h2 class="color-bl">Open
+				<br>Packaging Network
+				<br>
+				<span class="color-lbl">(OPN)</span>
+			</h2>
+			<div class="text-box">
+				<p>Open Source Platform, decentralized ecosystem
+					for high growth packaging industry participants
+					and related services</p>
+			</div>
+
+			<a href="./doc/Whitepaper.pdf" target="_blank" class="btn btn-blue">Read OPN Whitepaper</a>
+			<div class="box">
+				<div class="text-right-line">
+					<span>Join Our Friendly community:</span>
+				</div>
+				<div class="social-box">
+					<a href="https://t.me/openpackagingnetwork" target="_blank" rel="nofollow" class="social tel"></a>
+					<a href="https://www.facebook.com/OPN-Platform-178943839440080" target="_blank" rel="nofollow"
+					   class="social fb"></a>
+					<a href="https://twitter.com/OpenPackaginNet" target="_blank" rel="nofollow" class="social tw"></a>
+					<a href="https://www.instagram.com/openpackagingnetwork/" target="_blank" rel="nofollow"
+					   class="social insta"></a>
+					<a href="https://www.linkedin.com/company/openpackagingnetwork/" rel="nofollow" target="_blank"
+					   class="social in"></a>
+					<a href="https://github.com/OPNAG/contracts" target="_blank" rel="nofollow" class="social git"></a>
+					<a href="https://medium.com/@openpackaging" target="_blank" rel="nofollow" class="social m"></a>
+					<a href="https://www.reddit.com/user/opnplatform" rel="nofollow" target="_blank"
+					   class="social re"></a>
+					<a href="https://steemit.com/@openpackaging" rel="nofollow" target="_blank" class="social st"></a>
+					<div class="social-box__item">
+						<a href="https://angel.co/open-packaging-network-ag" rel="nofollow" target="_blank" class="social an"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="gradient col-12 col-sm-12 col-md-6 col-lg-6">
+			<div class="pos-right">
+				<h2 class="text-center color-w">OPK Token
+					<br>Sale upcoming!
+				</h2>
+				<div class="text-box-item">
+					<p>
+						<span class="color-bl color-q">Duration:</span>
+						<br>
+						<span class="color-w" style="letter-spacing: 2px;">01.08.2018
+								<span class="color-bl defiz">-</span> 31.12.2018</span>
+					</p>
+				</div>
+				<div class="text-box-item">
+					<a href="./join.html" class="btn btn-red">Join Private Sale!</a>
+				</div>
+				<div class="or">
+					<div class="or__line"></div>
+					<div class="or__text">or</div>
+					<div class="or__line"></div>
+				</div>
+				<div class="btn-white-wrap">
+					<div href="#" class="btn btn-white js-open-popup">Get Whitelisted for Crowdsale</div>
+				</div>
+			</div>
+
+			<div class="social-1">
+				<div class="text-right-centr">
+					<span>Join Our Friendly community:</span>
+				</div>
+				<div class="row social-box-2">
+					<a href="https://t.me/openpackagingnetwork" target="_blank" class="social tel col-3"></a>
+					<a href="https://www.facebook.com/OPN-Platform-178943839440080" target="_blank"
+					   class="social fb col-3"></a>
+					<a href="https://twitter.com/OpenPackaginNet" target="_blank" class="social tw col-3"></a>
+					<a href="https://www.linkedin.com/company/openpackagingnetwork/" target="_blank"
+					   class="social in col-3"></a>
+					<!-- <br>
+					  <a href="https://github.com/Sercha77/OPK-EthereumToken" target="_blank" class="social git col-3"></a>
+					  <a href="https://medium.com/@openpackaging" target="_blank" class="social m col-3"></a>
+					  <a href="https://www.reddit.com/user/opnplatform" target="_blank" class="social re col-3"></a>
+					  <a href="https://steemit.com/@openpackaging" target="_blank" class="social st col-3"></a>-->
+				</div>
+				<div class="row social-box-3">
+					<a href="https://github.com/Sercha77/OPK-EthereumToken" target="_blank"
+					   class="social git col-3"></a>
+					<a href="https://medium.com/@openpackaging" target="_blank" class="social m col-3"></a>
+					<a href="https://www.reddit.com/user/opnplatform" target="_blank" class="social re col-3"></a>
+					<a href="https://steemit.com/@openpackaging" target="_blank" class="social st col-3"></a>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+
+<div class="container" id="howworks">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="title">
+				<div class="title_text" style="margin-bottom: -20px">How the OPN<br>works</div>
+				<div class="title_bg">01</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class=" medium-padding20 ">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+				<div class="crumina-module crumina-heading mt-5">
+					<div class="heading-text" style="color: white;">
+						<p style="color: #273655;font-size: 20px; font-weight: 500;">
+							We believe in the power of blockchain
+							technology to transform the packaging
+							space for the better. To that end, our solution
+							is designed to leverage the advantages
+							of this technology to provide value to
+							the stakeholders of the ecosystem. The
+							'Open Packaging Network', as the name
+							suggests, aims at providing an open ecosystem
+							for various stakeholders to transact
+							with each other seamlessly.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12" style="display: flex; align-items: center;">
+				<img src="./images/image5.png" style="width: 100%;" class="img_big" alt="image">
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- 	<section class="crumina-module crumina-module-slider align-center  ">
+	<div class="container" style="padding-top: 1%;height: 89%;">
+		<div class="row" style="padding-top: 1%;height: 89%;">
+			</br>
+			<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 " style="padding-top: 1%;height: 90%;">
+				<h2 class="heading-title" id="problems">Problems in the </br> packaging industry</h2>
+				<div class="crumina-module-img-content">
+
+				</div>
+				<div class="slider-slides with-thumbs align-center">
+					<a href="#" class="slides-item slide-active">
+						<div class="testimonial-img-author">
+							<img src="./images/I_1.png" alt="author">
+						</div>
+					</a>
+
+					<a href="#" class="slides-item">
+						<div class="testimonial-img-author">
+							<img src="./images/I_2.png" alt="author">
+						</div>
+					</a>
+
+					<a href="#" class="slides-item">
+						<div class="testimonial-img-author">
+							<img src="./images/I_3.png" alt="author">
+						</div>
+					</a>
+
+					<a href="#" class="slides-item">
+						<div class="testimonial-img-author">
+							<img src="./images/I_4.png" alt="author">
+						</div>
+					</a>
+					<a href="#" class="slides-item">
+						<div class="testimonial-img-author">
+							<img src="./images/I_5.png" alt="author">
+						</div>
+					</a>
+					<a href="#" class="slides-item">
+						<div class="testimonial-img-author">
+							<img src="./images/I_6.png" alt="author">
+						</div>
+					</a>
+				</div>
+				</br>
+				<div class="btn-slider-wrap navigation-center-bottom">
+
+					<div class="btn-prev">
+						<svg class="utouch-icon icon-hover utouch-icon-arrow-left-1">
+							<use xlink:href="#utouch-icon-arrow-left-1"></use>
+						</svg>
+						<svg class="utouch-icon utouch-icon-arrow-left1">
+							<use xlink:href="#utouch-icon-arrow-left1"></use>
+						</svg>
+					</div>
+
+					<div class="btn-next">
+						<svg class="utouch-icon icon-hover utouch-icon-arrow-right-1">
+							<use xlink:href="#utouch-icon-arrow-right-1"></use>
+						</svg>
+						<svg class="utouch-icon utouch-icon-arrow-right1">
+							<use xlink:href="#utouch-icon-arrow-right1"></use>
+						</svg>
+					</div>
+
+
+				</div>
+			</div>
+
+
+			<div class="col-lg-6 medium-padding20 col-md-12 col-sm-12 col-xs-12">
+				<div class="swiper-container" data-effect="fade">
+
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="crumina-module crumina-teammembers-item teammember-item--author-in-round thumb--big">
+
+								<div class="teammembers-thumb align-center align-center" data-swiper-parallax="-100">
+									<img src="./images/I_1.png" alt="team member">
+								</div>
+
+								<div class="teammember-content" data-swiper-parallax="-300">
+
+									<div class="teammembers-item-prof">Demand Forecasting for Manufacturers</div>
+
+
+
+									<p style="text-align: left;">Manufacturers are always unsure about the demand. The problem arises when the buyers want their orders delivered
+										as soon as possible, also called as “hot parts”. But, on the flip side, the buyers complain that the suppliers
+										never deliver the product on time. Thus, there definitely is a gap that can be filled.
+									</p>
+
+
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="crumina-module crumina-teammembers-item teammember-item--author-in-round thumb--big">
+
+								<div class="teammembers-thumb align-center" data-swiper-parallax="-100">
+									<img src="./images/I_2.png" alt="team member">
+								</div>
+
+								<div class="teammember-content" data-swiper-parallax="-300">
+
+									<div class="teammembers-item-prof">Payment Issues</div>
+
+
+
+									<p style="text-align: left;">The backbone of every business transaction is the financial transaction that happens before or after the goods
+										are delivered from the producer to the buyer. Normally, the buyer wants to stretch the payments for a longer duration
+										to improve his cash flow. Bigger buyers will likely have more bargaining power in this matter. However, this is
+										a disadvantage for a tiny supplier since he will be devoid of cash for a long period of time.
+									</p>
+
+
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="crumina-module crumina-teammembers-item teammember-item--author-in-round thumb--big">
+
+								<div class="teammembers-thumb align-center" data-swiper-parallax="-100">
+									<img src="./images/I_3.png" alt="team member">
+								</div>
+
+								<div class="teammember-content" data-swiper-parallax="-300">
+
+									<div class="teammembers-item-prof">Transparency and Trust</div>
+
+
+
+									<p style="text-align: left;">One of the major problems that a manufacturing company faces with distributors and other intermediaries in the
+										network is that they do not have complete transparency of the other firm’s working. Hence, the manufacturers must
+										rely on whatever limited data that is available to them to make strategic decisions. However, these “hidden actions”,
+										the ones that the companies don’t have an insight into might have major implications for their business.
+									</p>
+
+
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="crumina-module crumina-teammembers-item teammember-item--author-in-round thumb--big">
+
+								<div class="teammembers-thumb align-center" data-swiper-parallax="-100">
+									<img src="./images/I_4.png" alt="team member">
+								</div>
+
+								<div class="teammember-content" data-swiper-parallax="-300">
+
+									<div class="teammembers-item-prof">Low Credit Facilities</div>
+
+
+
+									<p style="text-align: left;">With advancements in technology, it has become imperative for manufacturing companies to get along with time and
+										introduce new methods of manufacturing to stay alive in business. Unfortunately, not many businesses have the
+										financial foothold to acquire these new machines due to their steep costs. Most of the times, without assets as
+										collaterals, these SMBs might fail to secure a loan from the bank. Also, even if a loan is secured, it is done
+										through a lot of paperwork which consumes a lot of time as well as natural resources.
+									</p>
+
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="crumina-module crumina-teammembers-item teammember-item--author-in-round thumb--big">
+
+								<div class="teammembers-thumb align-center" data-swiper-parallax="-100">
+									<img src="./images/I_5.png" alt="team member">
+								</div>
+
+								<div class="teammember-content" data-swiper-parallax="-300">
+
+									<div class="teammembers-item-prof">Quality and Accuracy</div>
+
+
+
+									<p style="text-align: left;">The quality of shipments is one another important aspect of any supplier-buyer relationship.Unless the products
+										delivered are of high quality, the relationship won’t last long. Damaged products or incorrect products are a
+										pain to the buyers as they lose precious time on waiting up for the right product. Since time is money, the time
+										spent is equivalent to business losses both for buyers and suppliers. Hence, it is of utmost importance that the
+										supplier delivers his goods on time to the buyer.
+									</p>
+
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="crumina-module crumina-teammembers-item teammember-item--author-in-round thumb--big">
+
+								<div class="teammembers-thumb align-center" data-swiper-parallax="-100">
+									<img src="./images/I_6.png" alt="team member">
+								</div>
+
+								<div class="teammember-content" data-swiper-parallax="-300">
+
+									<div class="teammembers-item-prof">Sustainable Packaging</div>
+
+																			<a href="#" class="h5 teammembers-item-name">Jane Nguyen</a>
+
+									<p style="text-align: left;">With packaging come its perils. Packaging industry has been under fire from a lot of nonprofit organizations in
+										the U.S who released a “Plastics BAN (Better Alternatives Now) List” in support of California’s 67 ban on carry-out
+										plastics. Additionally, new technologies like 3D-forming for paper packaging is adding pressure on the packaging
+										industries to transform into a more sustainable one. Not just in U.S but also in the EU, many regulations have
+										been put in place.
+									</p>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section> -->
+
+<section class="background-contain medium-padding20">
+	<div class="container">
+		<div style="width: 100%;" align="center">
+			<!-- 									class="item" -->
+			<br>
+			<div class="title-small">
+				OPN<br>
+				Platform
+			</div>
+			<br>
+			<img src="./images/full.png" alt="Platform" style="margin: 0 auto; max-width: 100%;">
+			<div class="item-overlay top"></div>
+			<br>
+			<br>
+			<!--<div class="crumina-module crumina-heading align-center">-->
+			<!--<h2 class="heading-title">A platform for sellers and buyers</h2>-->
+			<!--<p class="heading-text">Having observed many market and customer segments in the packaging-->
+			<!--space, we realized that the problems spread across-->
+			<!--the spectrum and it is imperative to bring together all these packaging verticals to a-->
+			<!--single place to reduce the-->
+			<!--friction of transaction. Hence, we came up with the idea to design a marketplace for-->
+			<!--sellers to find their buyer-->
+			<!--counterparts and vice versa.-->
+			<!--</p>-->
+			<!--</div>-->
+		</div>
+		<!-- 							<img class="particular-image" src="./images/image.png" alt="image" > -->
+		<!--
+			<a href="#" class="btn btn--red btn--with-shadow">
+				Learn More
+			</a>-->
+	</div>
+</section>
+
+<section class="main-text">
+	<div class="container">
+		<div class="main-text-wrap">
+			<div class="main-text_title block_title">
+				A platform
+				for sellers
+				and buyers
+			</div>
+			<div class="main-text_desc">
+				<div class="text_text block_text">
+					Having observed many market and customer segments in the packaging space, we realized that the
+					probleеms
+					spread across the spectrum and it is imperative to bring together all these packaging verticals to a
+					single place to reduce the friction of transaction. Hence, we came up with the idea to design a
+					marketplace for sellers to find their buyer counterparts and vice versa.
+				</div>
+				<div class="text_bg">A platform for sellers and buyers</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="descr">
+				<div class="descr__text">
+					<img class="descr__text-img" src="images/des/close.png" alt="cl">
+					<div class="block_title">
+						Without<br>
+						the ecosystem
+					</div>
+					<div class="block_text descr_text">
+						The current system is a complex web
+						of interactions with many participants
+						who wait for days together to receive
+						confirmation regarding their
+						transaction.
+					</div>
+				</div>
+				<img class="descr__image" src="images/des/sheme1.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="descr descr_reverse">
+				<div class="descr__text">
+					<img class="descr__text-img" src="images/des/done.png" alt="cl">
+					<div class="block_title">
+						With<br>the ecosystem
+					</div>
+					<div class="block_text descr_text">
+						The Open Packaging Network aims
+						to provide a seamless system for real
+						time confirmation of transactions
+						along with a slew of tools and 3rd
+						party integrations
+					</div>
+				</div>
+				<img class="descr__image" src="images/des/sheme2.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="title-thr">
+				<div class="title-thr__text">OPN Platform B2B use cases</div>
+				<div class="title-thr__bg">OPN Platform B2B use cases</div>
+			</div>
+			<div class="table">
+				<div class="table__row">
+					<div class="table__col">Chemicals Manufacturer</div>
+					<div class="table__col">Plastic film Manufacturer</div>
+					<div class="table__col">Paper & Paperboard Manufacturer</div>
+					<div class="table__col">Packaging Materials Local Distributor</div>
+				</div>
+				<div class="table__row table__row_gray">
+					<div class="table__col">Trade Finance provider</div>
+					<div class="table__col">P2P Lending provider</div>
+					<div class="table__col">Payment service provider</div>
+					<div class="table__col">Trade Insurance provider</div>
+				</div>
+				<div class="table__row">
+					<div class="table__col">Packaging Converter</div>
+					<div class="table__col">Label printing Company</div>
+					<div class="table__col">Packaging chemicals supplier</div>
+					<div class="table__col">Packaging Components supplier</div>
+				</div>
+				<div class="table__row table__row_gray">
+					<div class="table__col">Packaging Machinery</div>
+					<div class="table__col">Printing & Labeling Machinery</div>
+					<div class="table__col">Packaging Engineering & Development Centers</div>
+					<div class="table__col">Packaging Innovation Cluster</div>
+				</div>
+				<div class="table__row">
+					<div class="table__col">Logistic & Shipping</div>
+					<div class="table__col">Fulfillment facility</div>
+					<div class="table__col">Material Handling</div>
+					<div class="table__col">Packing service</div>
+				</div>
+				<div class="table__row table__row_gray">
+					<div class="table__col">Design & Branding, Marketing Agency</div>
+					<div class="table__col">Packagingequipment service</div>
+					<div class="table__col">Regulatory & Compliance Entity</div>
+					<div class="table__col">Packaging Research & Development Organization</div>
+				</div>
+			</div>
+
+			<div class="title" id="whitepapper">
+				<div class="title_text">Whitepaper</div>
+				<div class="title_bg">02</div>
+			</div>
+
+			<div class="whitepapper">
+				<div class="whitepapper__item">
+					<div class="whitepapper__text">
+						Want to know how OPN platform
+						works? Take a deep dive
+						by reading our whitepaper
+					</div>
+					<a href="https://drive.google.com/file/d/12MKdsHPQLQEqS5Ep9sO3BI30FJ1fGso-/view"
+					   class="btn-whitepapper-wrap" target="_blank" rel="nofollow">
+						<div class="btn-whitepapper">
+							<img src="images/des/cloud.png" alt="cloud">
+							<div class="btn-whitepapper__separator"></div>
+							<div class="btn-whitepapper__text">Whitepaper</div>
+						</div>
+					</a>
+				</div>
+				<div class="whitepapper__item">
+					<div class="whitepapper__text">
+						Quickly understand the key
+						concept of the OPN platform
+						with our lightpaper.
+					</div>
+					<a href="https://drive.google.com/file/d/1vYVxVaOUZ2m9qbmaSsWSrZTi3eA8Zu_2/view"
+					   class="btn-whitepapper-wrap" target="_blank" rel="nofollow">
+						<div class="btn-whitepapper">
+							<img src="images/des/cloud.png" alt="cloud">
+							<div class="btn-whitepapper__separator"></div>
+							<div class="btn-whitepapper__text">Lightpaper</div>
+						</div>
+					</a>
+				</div>
+				<div class="whitepapper__item">
+					<div class="whitepapper__text">
+						Understand the tech behind
+						the project and what makes
+						OPN special.
+					</div>
+					<a href="https://drive.google.com/file/d/1VZxijCenN5E3gUQsbBpk-vGYuELv3_tt/view"
+					   class="btn-whitepapper-wrap" target="_blank" rel="nofollow">
+						<div class="btn-whitepapper">
+							<img src="images/des/cloud.png" alt="cloud">
+							<div class="btn-whitepapper__separator"></div>
+							<div class="btn-whitepapper__text">Techpaper</div>
+						</div>
+					</a>
+				</div>
+				<div class="whitepapper__item">
+					<div class="whitepapper__text">
+						What does the token do? How
+						can stakeholders use it? Here
+						are the answers
+					</div>
+					<a href="https://drive.google.com/file/d/1T5bwhCYS4WhydjIgGxapIVc1N55cqIPM/view"
+					   class="btn-whitepapper-wrap" target="_blank" rel="nofollow">
+						<div class="btn-whitepapper">
+							<img src="images/des/cloud.png" alt="cloud">
+							<div class="btn-whitepapper__separator"></div>
+							<div class="btn-whitepapper__text">Tokenpaper</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="title" id="roadmap">
+				<div class="title_text">Roadmap</div>
+				<div class="title_bg">03</div>
+			</div>
+
+			<div class="roadmap">
+				<div class="roadmap__row roadmap__row1">
+					<div class="roadmap__col roadmap__title">Phase I</div>
+					<div class="roadmap__col roadmap__title bg_gray">Phase II</div>
+					<div class="roadmap__col roadmap__title">Phase III</div>
+					<div class="roadmap__col roadmap__title">Phase IV</div>
+				</div>
+
+				<div class="roadmap__row roadmap__row2">
+					<div class="roadmap__col roadmap__progress" style="margin-left: 30px;">
+						<div class="roadmap__progress_fill"></div>
+						<img class="roadmap__progress-start" src="images/des/start.png" alt="start"
+							 style="left: -12px;">
+					</div>
+					<div class="roadmap__col roadmap__progress">
+						<div class="roadmap__progress_fill" style="width: 50%;"></div>
+						<img class="roadmap__progress-start" src="images/des/now.png" alt="start" style="top: -14px;">
+					</div>
+					<div class="roadmap__col roadmap__progress">
+						<img class="roadmap__progress-start" src="images/des/second.png"></div>
+					<div class="roadmap__col roadmap__progress" style="margin-right: 30px;">
+						<img class="roadmap__progress-start" src="images/des/second.png"></div>
+				</div>
+
+				<div class="roadmap__row roadmap__row3">
+					<div class="roadmap__col roadmap__title" style="color: #1d66b1;">
+						Concept Preparation<br>& Validation
+					</div>
+					<div class="roadmap__col roadmap__title bg_gray" style="color: #7CAEEA;">
+						MVP Development<br>& Fundrising
+					</div>
+					<div class="roadmap__col roadmap__title" style="color: #767CBB;">
+						Protocol Development<br>& Integrations
+					</div>
+					<div class="roadmap__col roadmap__title" style="color: #4ABED2;">
+						Concept Preparation<br>& Validation
+					</div>
+				</div>
+
+				<div class="roadmap__row roadmap__row4">
+					<div class="roadmap__col">
+						<div class="roadmap-title-mob">
+							<div class="roadmap__col roadmap__title">Phase I</div>
+							<div class="roadmap__col roadmap__title" style="color: #1d66b1;">
+								Concept Preparation<br>& Validation
+							</div>
+						</div>
+						<div class="sub-title">2017<br>SELF FUNDED</div>
+						• Packaging Industry E-COMMERCE PLATFORM development
+						<br>• Blockchain Decentralized Concept Development
+						<br><br>
+						<div class="sub-title">QI, QII 2018<br>SELF FUNDED</div>
+						• Project Development Team
+						<br>• Advisory Board Engagement
+						<br>• Validated Project Concept with Packaging Industry survey
+						<br>• Whitepaper Release
+						<br>• Established Open Packaging Network AG, Switzerland
+					</div>
+					<div class="roadmap__col bg_gray">
+						<div class="roadmap-title-mob">
+							<div class="roadmap__col roadmap__title bg_gray">Phase II</div>
+							<div class="roadmap__col roadmap__title bg_gray" style="color: #7CAEEA;">
+								MVP Development<br>& Fundrising
+							</div>
+						</div>
+						<div class="sub-title">QIII 2018<br>
+							SELF FUNDED/<br>
+							PRIVATE SALE FUNDED
+						</div>
+						• Start MVP development ICO Private Sale
+						<br>• Launch Bug Bounty campaign and security tests
+						<br>
+						<br>
+						<div class="sub-title">
+							QIV 2018
+							PRIVATE SALE FUNDED/<br>
+							CROWDSALE FUNDED<br>
+						</div>
+						• Release MVP with limited futures
+						<br>• Token Generation Event
+						<br>• OPK Smart Contract Token Activation
+						<br>• Listing OPK Token on Exchanges
+
+					</div>
+					<div class="roadmap__col">
+						<div class="roadmap-title-mob">
+							<div class="roadmap__col roadmap__title">Phase III</div>
+							<div class="roadmap__col roadmap__title" style="color: #767CBB;">
+								Protocol Development<br>& Integrations
+							</div>
+						</div>
+						<div class="sub-title">
+							2019<br>
+							CROWDSALE FUNDED
+						</div>
+						• Start development OPN Platform Alpha Version
+						<br>• Develop API
+						<br>• Launch Android Mob App
+						<br>• Governance R&D
+						<br>• Supply chain Integration
+						<br>• Launch OPN Platform Beta version
+						<br>• Launch IOS Mob App
+						<br>• Payment gateway development
+						<br>• Europe Road show
+						<br>• Provenance of goods
+						<br>• Trade Finance Service
+						<br>• Launch payment API
+						<br>• Commodity market
+						<br>• Asia Road show
+					</div>
+					<div class="roadmap__col">
+						<div class="roadmap-title-mob">
+							<div class="roadmap__col roadmap__title">Phase IV</div>
+							<div class="roadmap__col roadmap__title" style="color: #4ABED2;">
+								Concept Preparation<br>& Validation
+							</div>
+						</div>
+
+						<div class="sub-title">
+							2020<br>
+							CROWDSALE FUNDED
+						</div>
+
+						• Cross Blockchain Support
+						<br>• Waste Recycling rewards concept development
+						<br>• Overseas expansion: representative offices in Asia and Americas
+						<br>• America Road show
+						<br>• Brand & Design tool integration
+						<br>• IoT Integration
+						<br>• Overseas expansion: representative office in Africa
+						<br>
+						<br>
+						<div class="sub-title">
+							2022<br>
+							SELF FUNDED
+						</div>
+						• Research on governance, privacy, scalability, futureproofing
+						<br>• Blockchain protocol development
+					</div>
+				</div>
+			</div>
+
+			<div class="title">
+				<div class="title_text" style="margin-bottom: -20px;">Token Sale<br>
+					Structure
+				</div>
+				<div class="title_bg">04</div>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+
+<section class=" align-center">
+	<div class="container">
+
+		<div class="row d-flex justify-content-around token-sale-str">
+			<div class="token-sale-str__item">
+				<div>
+					<h4 class="h4-title" align="left">Token name:</h4>
+					<h3 class="h3-title" align="left">OPK</h3>
+				</div>
+
+			</div>
+			<div class="token-sale-str__item">
+				<div>
+					<h4 class="h4-title" align="left">Token Standard:</h4>
+					<h3 class="h3-title" align="left">ERC20</h3>
+				</div>
+			</div>
+			<div class="token-sale-str__item">
+				<div>
+					<h4 class="h4-title" align="left">Token Sale Duration:</h4>
+					<h3 class="h3-title" align="left">01/10/2018-31/12/2018</h3>
+				</div>
+			</div>
+
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Token Purchase price:</h4>
+				<h3 class="h3-title" align="left">1 USD = 1 OPK</h3>
+			</div>
+
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Accepted Currencies:</h4>
+				<h3 class="h3-title" align="left">BTC, ETH, USD, EUR, CHF</h3>
+			</div>
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">KYC/AML:</h4>
+				<h3 class="h3-title" align="left">Yes</h3>
+			</div>
+
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Hard Cap:</h4>
+				<h3 class="h3-title" align="left">$30 million</h3>
+			</div>
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Unsold OPK tokens:</h4>
+				<h3 class="h3-title" align="left">To Reserve Fund</h3>
+			</div>
+
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Funds Release:</h4>
+				<h3 class="h3-title" align="left">Roadmap Milestones</h3>
+			</div>
+
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Total Token Supply(max):</h4>
+				<h3 class="h3-title" align="left">50 000 000 OPK</h3>
+			</div>
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Token to be sold :</h4>
+				<h3 class="h3-title" align="left">30 000 000 OPK</h3>
+			</div>
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Token allocation:</h4>
+				<h3 class="h3-title" align="left">Automatic</h3>
+			</div>
+
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Min Purchase:</h4>
+				<h3 class="h3-title" align="left">50 OPK</h3>
+			</div>
+
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Max Purchase:</h4>
+				<h3 class="h3-title" align="left">100 000 OPK</h3>
+			</div>
+			<div class="token-sale-str__item">
+				<h4 class="h4-title" align="left">Funds Сollection:</h4>
+				<h3 class="h3-title" align="left">Escrow</h3>
+			</div>
+
+			<div class="token-sale-str__item mob-db">
+				<h4 class="h4-title" align="left"></h4>
+				<h3 class="h3-title" align="left"></h3>
+
+			</div>
+			<br>
+			<br>
+		</div>
+
+		<div class="medium-padding80"></div>
+
+		<div class="title-thr">
+			<div class="title-thr__text">Funds allocation</div>
+			<div class="title-thr__bg">Funds allocation</div>
+		</div>
+
+		<div class="col-lg-12 col-sm-12 col-md-12 text-center" style="margin: 50px 0;">
+			<img src="images/des/sss.png" alt="sheme">
+		</div>
+
+
+		<div class="title-thr">
+			<div class="title-thr__text">Bonus structure</div>
+			<div class="title-thr__bg">Bonus structure</div>
+		</div>
+
+		<div class="table table-bonus">
+			<div class="table__row">
+				<div class="table__col table-bonus_title" style="color: #9aacb8;
+     padding-top: 40px;">TIMEFRAME
+				</div>
+				<div class="table__col table-bonus_title"><span class="table-bonus_title-small">UP TO</span><br>
+					10 000 OPK
+				</div>
+				<div class="table__col table-bonus_title"><span class="table-bonus_title-small">UP TO</span><br>
+					50 000 OPK
+				</div>
+				<div class="table__col table-bonus_title"><span class="table-bonus_title-small">UP TO</span><br>
+					100 000 OPK
+				</div>
+			</div>
+			<div class="table__row table__row_gray">
+				<div class="table__col">First 24 hours</div>
+				<div class="table__col">20%</div>
+				<div class="table__col">22.5%</div>
+				<div class="table__col">25%</div>
+			</div>
+			<div class="table__row">
+				<div class="table__col">Week 1</div>
+				<div class="table__col">15%</div>
+				<div class="table__col">17.5%</div>
+				<div class="table__col">20%</div>
+			</div>
+			<div class="table__row table__row_gray">
+				<div class="table__col">Week 2</div>
+				<div class="table__col">5%</div>
+				<div class="table__col">7.5%</div>
+				<div class="table__col">10%</div>
+			</div>
+			<div class="table__row">
+				<div class="table__col">Week 3</div>
+				<div class="table__col">1%</div>
+				<div class="table__col">1%</div>
+				<div class="table__col">1%</div>
+			</div>
+			<div class="table__row table__row_gray">
+				<div class="table__col">Week 4</div>
+				<div class="table__col">0%</div>
+				<div class="table__col">0%</div>
+				<div class="table__col">0%</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="title" id="team">
+		<div class="title_text">Team</div>
+		<div class="title_bg">05</div>
+	</div>
+
+	<div class="core-team">
+		<div class="title-thr">
+			<div class="title-thr__text">Core Team</div>
+			<div class="title-thr__bg">Core Team</div>
+		</div>
+
+		<div class="team-block team-block-2">
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face6.png" alt="">
+				</div>
+				<h3 class="member-name">Sergio Ciachir</h3>
+				<h4 class="member-position">Project Leader</h4>
+				<p class="member-country">Zug, Switzerland</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/sergio-c-957995ab/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+				<img src="images/icon_shwitzerland.png" style="width: 30px; height: 30px;" alt="">
+				<p class="member-progress">Sergio is a Project Leader with
+					immense Packaging Industry experience with deep knowledge
+					about problems in the space. He is responsible for the
+					conceptualization, partnerships and commercial success
+					of the Open Packaging Network.
+				</p>
+			</div>
+
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face7.png" alt="">
+				</div>
+				<h3 class="member-name">Valentina Sanseverino</h3>
+				<h4 class="member-position">CMO</h4>
+				<p class="member-country">Caserta, Italy</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/valentina-sanseverino-a11b3447/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+				<img src="images/icon_italy.png" style="width: 30px; height: 30px;" alt="">
+				<p class="member-progress">A person with excellent communicatonal skills
+					and an ability in establishing relationship with people, having
+					previous experiences in Coprodeli USA and SA. IN
+					as Communication Manager. Excellent organizational competencies,
+					ability to writeup documents with good skills incoordinating
+					work groups and public speaking.
+				</p>
+			</div>
+
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face8.png" alt="">
+				</div>
+				<h3 class="member-name">Abhilash N L</h3>
+				<h4 class="member-position">Blockchain Protocol Developer</h4>
+				<p class="member-country">Milan, Italy</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/abhilashnl/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+				<img src="images/icon_italy.png" style="width: 30px; height: 30px;" alt="">
+				<p class="member-progress">Abhilash is a Product
+					Manager with previous Product Management experience with IBM.
+					He has studied with Boston University on Platform Strategies
+					for Businesses and currently takes care of the platorm at
+					Open Packaging Network.</p>
+			</div>
+
+			<div class="col">
+				<div class="member-photo">
+					<img src="./images/face9.png" alt="">
+				</div>
+				<h3 class="member-name">Nikita Melnikov</h3>
+				<h4 class="member-position">Lofchain CTO</h4>
+				<p class="member-country">Saint Petersburg, Russia</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/nikita-melnikov-a71a06b8/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+				<img src="images/icon_russia.png" style="width: 30px; height: 30px;" alt="">
+				<p class="member-progress">Nikita is a Web-Developer with vast knowledge
+					in the blockchain space having already worked on many projects in
+					the past 2 years. He is responsible for conceptualizing,
+					designing implementing and maintaining the technical architecture.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="operation-team">
+		<div class="title-thr" style="margin: 40px 0;">
+			<div class="title-thr__text">Operation Team</div>
+			<div class="title-thr__bg">Operation Team</div>
+		</div>
+
+		<div class="team-block team-block-3">
+			<div class="col  col-border-right">
+				<div class="member-photo">
+					<img src="./images/face10.png" alt="">
+				</div>
+				<h3 class="member-name">Vlad Kovryzhenko</h3>
+				<h4 class="member-position">Web & Mobile Developer</h4>
+				<p class="member-country">Kiev, Ukraine</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/vlad-kovryzhenko-366530155/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+			</div>
+
+			<div class="col  col-border-right">
+				<div class="member-photo">
+					<img src="./images/face11.png" alt="">
+				</div>
+				<h3 class="member-name">Gideon Gibsoon Udoh</h3>
+				<h4 class="member-position">Community Manager</h4>
+				<p class="member-country">Akwaibom, Nigeria</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/gibsoon-udoh-5b3755167/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+			</div>
+
+			<div class="col  col-border-right">
+				<div class="member-photo">
+					<img src="./images/face19.png" alt="">
+				</div>
+				<h3 class="member-name">Elizaveta Bocharova</h3>
+				<h4 class="member-position">Social Media Senior Manager</h4>
+				<p class="member-country">Kiev, Ukraine</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/elizabeth-bocharova-56507b142/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+			</div>
+
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face13.png" alt="">
+				</div>
+				<h3 class="member-name">Jacopo Lualdi</h3>
+				<h4 class="member-position">Web Developer</h4>
+				<p class="member-country">Milan, Italy</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/jacopolualdi/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+			</div>
+		</div>
+		<div class="team-block team-block-4">
+			<div class="col">
+				<div class="member-photo">
+					<img src="./images/face14.png" alt="">
+				</div>
+				<h3 class="member-name">Sergio Ivanyo</h3>
+				<h4 class="member-position">UX / UI Designer</h4>
+				<p class="member-country">Dnipro, Ukraine</p>
+				<a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/sergio-ivanyo-a39a721b/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+			</div>
+
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face15.png" alt="">
+				</div>
+				<h3 class="member-name">Michele Vincini</h3>
+				<h4 class="member-position">Graphic Designer</h4>
+				<p class="member-country">Milan, Italy</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/michele-vincini-9a838696/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+			</div>
+
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face16.png" alt="">
+				</div>
+				<h3 class="member-name">Kanstantsin Kalinouski</h3>
+				<h4 class="member-position">Team Lead / Blockchain expert</h4>
+				<p class="member-country">Minsk, Belarus</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/blockchainwork/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+			</div>
+
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face17.png" alt="">
+				</div>
+				<h3 class="member-name">Sergey Bekish</h3>
+				<h4 class="member-position">Senior Front-end developer</h4>
+				<p class="member-country">Minsk, Belarus</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/serhbekish/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="advisory-board">
+		<div class="title-thr" style="margin: 40px 0;">
+			<div class="title-thr__text">Advisory Board</div>
+			<div class="title-thr__bg">Advisory Board</div>
+		</div>
+
+		<div class="team-block team-block-1">
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face1.png" alt="">
+				</div>
+				<h3 class="member-name">Dr. Mattia Rattagi</h3>
+				<h4 class="member-position">Regulatory Relation Advisor</h4>
+				<p class="member-country">Zürich Area, Switzerland</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/m-rattaggi/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;">
+				</a>
+				<img src="./images/icon_swith.svg" style="width: 30px; height: 30px;" alt="">
+				<p class="member-progress">Mattia is the chairman of the Regulatory Policy working group at the
+					Crypto Valley Association (CVA), co-author of the CVA ICO Code of Conduct, founder and owner
+					of Dr. Mattia L. Rattaggi Advisory & Consultancy and Chairman and co-founder of DecentAge Ltd.
+					Next to his advisory capacity, Mattia is a thought leader in the crypto, financial regulatory
+					and risk spaces, a regular speaker at international conferences and writer.</p>
+				<div class="member_bottom">
+					<div class="gorizontal-line">
+						<img src="./images/line-gorizontal.png" alt="">
+					</div>
+					<img class="icon_company" src="./images/icon_c.png" alt="">
+				</div>
+			</div>
+
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face2.png" alt="">
+				</div>
+				<h3 class="member-name">Mark Holthuizen</h3>
+				<h4 class="member-position">Packaging Advisor</h4>
+				<p class="member-country">Zapopan Area, Mexico</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/markholthuizen/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+				<img src="images/icon_mexico2..png" alt="">
+				<p class="member-progress">Mark is a Multilingual Commercial Professional with a vast experience
+					in the packaging industry. He is specialized in packaging equipment (process and end-of-line)
+					and materials (plastics and resins). Mark has lived in Europe, Asia and Latin-America and works
+					with multinational customers and suppliers all over the world.</p>
+				<div class="member_bottom">
+					<div class="gorizontal-line">
+						<img src="./images/line-gorizontal.png" alt="">
+					</div>
+					<img class="icon_company" src="./images/icon_mextend.png" alt="">
+				</div>
+			</div>
+
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face3.png" alt="">
+
+				</div>
+				<h3 class="member-name">Sergey Dydyshko</h3>
+				<h4 class="member-position">Packaging & Label Advisor</h4>
+				<p class="member-country">Minsk, Belarus</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/sergey-dydyshko-760496a2/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+				<img src="./images/icon_belarus.svg" style="width: 30px; height: 30px;" alt="">
+				<p class="member-progress">More than 10 years of experience in print and packaging industry. Strong
+					knowledge
+					of all phases ofpackaging development and production process. Projects delivered for
+					Savushkin, Campina, GFD etc. Organization and management of the educational process
+					at the faculty. Responsible for scientific and research work at the faculty.</p>
+				<div class="member_bottom">
+					<div class="gorizontal-line">
+						<img src="./images/line-gorizontal.png" alt="">
+					</div>
+					<img class="icon_company" src="./images/icon_sprocket.png" alt="">
+				</div>
+			</div>
+
+			<div class="col col-border-right">
+				<div class="member-photo">
+					<img src="./images/face4.png" alt="">
+				</div>
+				<h3 class="member-name">Sanjeev Raghu</h3>
+				<h4 class="member-position">Marketing Advisor</h4>
+				<p class="member-country">New Delhi Area, India</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/sanjeev-raghu-89321312/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+				<img src="./images/icon_india.png?v=1" alt="" style="width: 30px; height: 30px;">
+				<p class="member-progress">Sanjeev is a Sales & Marketing professional with 14 years of experience
+					across E-commerce, Education & Finance industries. He has led P&L roles to generate revenue
+					while being profitable through digital sales platforms. He is active trader & advices ICO’s
+					to setup marketing strategies.</p>
+				<div class="member_bottom">
+					<div class="gorizontal-line">
+						<img src="./images/line-gorizontal.png" alt="">
+					</div>
+					<img class="icon_company" src="./images/icon_freldo.png" alt="">
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="member-photo">
+					<img src="./images/face5.png" alt="">
+				</div>
+				<h3 class="member-name">Uroš Jakomin</h3>
+				<h4 class="member-position">Supply Chain Advisor</h4>
+				<p class="member-country">Koper, Slovenia</p>
+				<a class="linked-in-link" target="_blank" rel="nofollow"
+				   href="https://www.linkedin.com/in/uro%C5%A1-jakomin/">
+					<img class="linkedin_icon" src="./images/icon_linkedin.svg" alt=""
+						 style="width: 30px; height: 30px;"></a>
+				<img src="images/icon_slovenia.svg" style="width: 30px; height: 30px;" alt="">
+				<p class="member-progress">Uros has 13 years of experience in freight forwarding.
+					Since 2005, he has handled all kinds of cargo from standard cargo, like cars,
+					standard containers, group shipments to personal effects, special equipment,
+					out of gauge cargo, military cargo, dangerous cargo, temperature controlled cargo,
+					food, beverages etc.</p>
+				<div class="member_bottom">
+					<div class="gorizontal-line">
+						<img src="./images/line-gorizontal.png" alt="">
+					</div>
+
+					<img class="icon_company" src="./images/icon_express.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="title">
+				<div class="title_text">Partners</div>
+				<div class="title_bg">06</div>
+			</div>
+
+			<div class="partners">
+				<a href="http://goldblum.eu/en/" target="_blank" rel="nofollow"><img src="images/des/partner1.png"
+																					 alt="partner"></a>
+				<a href="https://www.unipr.it/ateneo/organi-e-strutture/centri-e-altre-strutture/centri-universitari/future-technology-lab"
+				   target="_blank" rel="nofollow"><img src="images/des/partner2.png" alt="partner"></a>
+				<a href="https://www.bancor.network/discover" target="_blank" rel="nofollow"><img
+					src="images/des/partner3.png" alt="partner"></a>
+			</div>
+
+			<div class="title">
+				<div class="title_text">Press
+				</div>
+				<div class="title_bg">07</div>
+			</div>
+
+			<div class="press">
+				<a href="https://icobench.com/ico/opn-platform" target="_blank" rel="nofollow"><img
+					src="images/des/press/press1.png" alt="press"></a>
+				<a href="https://www.coinschedule.com/ico/open-packaging-network" target="_blank" rel="nofollow"><img
+					src="images/des/press/press2.png" alt="press"></a>
+				<a href="https://www.trackico.io/ico/open-packaging-network/" target="_blank" rel="nofollow"><img
+					src="images/des/press/press3.png" alt="press"></a>
+				<a href="https://icolink.com/ico-open-packaging-network.html" target="_blank" rel="nofollow"><img
+					src="images/des/press/press4.png" alt="press"></a>
+				<a href="https://icoscroll.com/open-packaging-network-opn-ico?utm_source=icoscroll.com" target="_blank"
+				   rel="nofollow"><img src="images/des/press/press5.png" alt="press"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div class="footer-wrapper container">
+		<div class="footer-container footer-container-1">
+			<div class="logo-box">
+				<img src="images/logo.svg" alt="">
+			</div>
+			<div class="link-box">
+				<a href="http://www.opnplatform.com/doc/T&C.OPN.pdf">Terms and Conditions</a>
+				<a href="http://www.opnplatform.com/doc/Privacy%20Policy_OPN%20.pdf">Privacy policy</a>
+			</div>
+		</div>
+		<div class="footer-container footer-container-2">
+			<div class="social-footer-box">
+				<div class="social-box">
+					<a href="https://t.me/openpackagingnetwork" target="_blank" rel="nofollow" class="social tel"></a>
+					<a href="https://www.facebook.com/OPN-Platform-178943839440080" target="_blank" rel="nofollow"
+					   class="social fb"></a>
+					<a href="https://twitter.com/OpenPackaginNet" target="_blank" rel="nofollow" class="social tw"></a>
+					<a href="https://www.instagram.com/openpackagingnetwork/" target="_blank" rel="nofollow"
+					   class="social insta"></a>
+					<a href="https://www.linkedin.com/company/openpackagingnetwork/" rel="nofollow" target="_blank"
+					   class="social in"></a>
+					<a href="https://github.com/OPNAG/contracts" target="_blank" rel="nofollow" class="social git"></a>
+					<a href="https://medium.com/@openpackaging" target="_blank" rel="nofollow" class="social m"></a>
+					<a href="https://www.reddit.com/user/opnplatform" rel="nofollow" target="_blank"
+					   class="social re"></a>
+					<a href="https://steemit.com/@openpackaging" rel="nofollow" target="_blank" class="social st"></a>
+					<div class="social-box__item">
+						<a href="https://angel.co/open-packaging-network-ag" rel="nofollow" target="_blank" class="social an"></a>
+					</div>
+				</div>
+			</div>
+			<div class="copyright-box">
+				<span>©2018 Open Packaging Network</span>
+			</div>
+		</div>
+		<div class="footer-container footer-container-3">
+			<div class="footer-container-3-wrapper">
+				<div class="contact-box">
+					<span class="title-span">Contact email:</span>
+					<a href="mailto:info@opnplatform.com">info@opnplatform.com</a>
+				</div>
+				<div class="adress-box">
+					<span class="title-span">Adress</span>
+					<span class="adress-text-span">Baarerstrasse 25, Zug, 6300 <br> Switzerland (c) 2018</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+<!-- <script src="./js/old-script.js"></script> -->
+<script src="./js/script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function () {
+		$('.js-open-popup').click(function () {
+			$('.popup-wrap').show();
+		});
+		$('.popup__close').click(function () {
+			$('.popup-wrap').hide();
+		});
+
+		$(".popup_form").submit(function () {
+			$.ajax({
+				type: "POST",
+				url: "white-list.php",
+				data: $(this).serialize(),
+			}).done(function (data) {
+				console.log(data)
+				$(".popup_form").trigger('reset');
+				$('.popup-wrap').hide();
+				alert('You have been added to the Whitelist.');
+			});
+			return false;
+		});
+
+		$('.js-open-menu').click(function () {
+			$('.mob-nav').show();
+		});
+		$('.mob-nav__close').click(function () {
+			$('.mob-nav').hide();
+		});
+
+
+	});
+</script>
+</body>
+
+</html>

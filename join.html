@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,500,600,700,800,900|Montserrat:400,500,600,700,800"
+	 rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/join.media.style.css">
+	<title>Join OPN Platform</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123052269-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-123052269-1');
+	</script>
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '213629162797587');
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=213629162797587&ev=PageView&noscript=1"
+		/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+	<script>
+		function onClickFb() {
+			fbq('track', 'CompleteRegistration');
+		};
+	</script>
+</head>
+
+<body>
+	<div class="form-bg m2">
+		<form id="formJoin" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post" target="_blank">
+			<a href="./index.html" class="form-closer">
+				<img src="./images/closer.svg" alt="">
+			</a>
+			<div class="heder-form">
+				<p class="color-bl">Welcome to OPK Token
+					<br>
+					<span class="color-lbl">Presale Registration</span>
+				</p>
+			</div>
+			<div class="form-content">
+				<div class="form-group mb-35">
+					<input id="yourName" type="text" class="form-control" name="name" placeholder="Your Name" onfocus="placeholder='' " onblur="placeholder='Your Name'"
+					 required>
+				</div>
+				<div class="form-group">
+					<input id="yourEmail" type="email" class="form-control" name="email" placeholder="Your E-mail" onfocus="placeholder='' "
+					 onblur="placeholder='Your E-mail'" required>
+				</div>
+				<div class="form-check d-flex mt-35 mb-35">
+					<input type="checkbox" class="form-check-input" id="formCheck" onchange="onCheckForm()">
+					<label class="form-check-label" for="formCheck">
+						I accept the
+						<a href="./doc/T&C.OPN.pdf" target="_blank">Terms and Conditions</a> of use of the service and the
+						<a href="./doc/Privacy Policy_OPN .pdf" target="_blank">Privacy policy</a>
+					</label>
+				</div>
+				<input type="hidden" name="campaign_token" value="6w52o" />
+				<input type="submit" onclick="onClickFb()" class="btn btn-blue" value="Register me" disabled />
+			</div>
+		</form>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
+
+<script>
+	$(document).ready(function () {
+		$('#formJoin').validate({
+			rules: {
+				yourEmail: {
+					required: true,
+					email: true
+				}
+			}
+		});
+
+	});
+</script>
