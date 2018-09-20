@@ -211,7 +211,7 @@ img {
 	align-items: center;
 }
 .btn-whitepapper:hover {
-	border: none;
+	border: 1px solid transparent;
 	color: #ffffff;
 	background: -moz-linear-gradient(top, #2adddc 0%, #60abf8 67%, #048cd6 100%);
 	background: -webkit-linear-gradient(top, #2adddc 0%, #60abf8 67%, #048cd6 100%);
@@ -805,14 +805,14 @@ h2 {
 	background: url('../images/an.svg'), #a5dee9;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 19px 19px;
+	background-size: 23px 23px;
 }
 
 .social.an:hover {
 	background: url('../images/an.svg'), #24292e;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 19px 19px;
+	background-size: 23px 23px;
 }
 
 .text-right-line {

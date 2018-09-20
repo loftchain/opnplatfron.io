@@ -1,3 +1,13 @@
+@media screen and (min-width: 1201px) and (max-width: 1399px) {
+	.btn-whitepapper img {
+		margin-left: 12px;
+	}
+
+	.btn-whitepapper__separator {
+		margin: 10px;
+	}
+}
+
 @media screen and (max-width: 1000px) {
 	.btn-red, .btn-red:focus, .btn-red:active {
 		width: auto;
