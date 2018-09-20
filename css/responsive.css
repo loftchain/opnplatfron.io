@@ -89,12 +89,22 @@
 	.text-right-line {
 		width: auto;
 	}
+	.text-right-line::after {
+		width: 30%;
+	}
 	.social-box {
-		width: auto;
+		width: 93%;
 	}
 	.social {
 		width: 33px;
 		height: 33px;
+	}
+	.social.an {
+		background-size: 19px 19px;
+	}
+
+	.social.an:hover {
+		background-size: 19px 19px;
 	}
 	.logo-tablet {
 		display: block;
@@ -167,6 +177,13 @@
 	}
 	.press a {
 		padding: 15px;
+	}
+	.social-footer-box .social-box {
+		margin-top: 7px;
+	}
+	.social-footer-box a {
+		width: 35px;
+		height: 35px;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -317,6 +334,7 @@
 	}
 	.press {
 		flex-direction: column;
+		align-items: center;
 	}
 	.press a {
 		margin-bottom: 40px;
