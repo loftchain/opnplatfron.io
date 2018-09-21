@@ -64,6 +64,9 @@ img {
 	color: #ffffff;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
 }
+.mvp--mobile {
+	display: none;
+}
 .btn-white {
 	color: #ffffff;
 	border: 1px solid #ffffff;
@@ -168,6 +171,22 @@ img {
 	font-size: 16px;
 	line-height: 33px;
 }
+.nav-logo-mob-wrap {
+	display: none;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+.nav-logo-mob {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
+.first-screen {
+	margin-top: 70px;
+}
+.gradient .mobile {
+	display: none;
+}
 .or {
 	display: flex;
 	align-items: center;
@@ -232,6 +251,9 @@ img {
 	font-size: 20px;
 	line-height: 14px;
 	font-weight: 500;
+}
+.box-mobile {
+	display: none;
 }
 .title {
 	text-align: center;
@@ -484,6 +506,10 @@ h2 {
 
 .color-bl {
 	color: #083583;
+}
+
+.color-bl .mobile {
+	display: none;
 }
 
 .color-w {

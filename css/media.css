@@ -45,16 +45,6 @@
 		padding-bottom: 20px;
 	}
 
-	.text-box {
-		width: auto;
-		max-width: 400px;
-		margin: 40px auto;
-	}
-
-	.open {
-		text-align: center;
-	}
-
 	.col-sm-3, .col-sm-6 {
 		max-width: none;
 		flex: auto;
@@ -87,7 +77,7 @@
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
 	.container {
 		max-width: 1000px;
 	}
@@ -156,7 +146,7 @@
 
 /* ***************Medium*********** */
 
-@media only screen and (min-width: 640px) and (max-width: 768px) {
+@media only screen and (min-width: 640px) and (max-width: 767px) {
 	.d-flex {
 		max-width: 768px;
 	}
@@ -181,15 +171,6 @@
 	.gradient {
 		background: linear-gradient(to bottom, #2CE1DC, #0082D5);
 		padding: 0 50px;
-	}
-
-	.btn-blue {
-		width: 400px;
-		height: 60px;
-		padding: 10px;
-		font-size: 24px;
-		font-weight: 700;
-		margin-bottom: 50px;
 	}
 
 	.color-bl {
@@ -461,15 +442,6 @@
 		/* width: 100%; */
 		background: linear-gradient(to bottom, #2CE1DC, #0082D5);
 		/*padding: 50px;*/
-	}
-
-	.btn-blue {
-		width: 350px;
-		height: 60px;
-		padding: 10px;
-		font-size: 24px;
-		font-weight: 700;
-		margin-bottom: 50px;
 	}
 
 	.color-bl {
@@ -784,11 +756,11 @@
 	.case-item-content {
 		display: none;
 	}
-	.btn-red, .btn-blue {
-		height: auto;
-		width: auto;
-		font-size: 20px;
-	}
+	/*.btn-red, .btn-blue {*/
+		/*height: auto;*/
+		/*width: auto;*/
+		/*font-size: 20px;*/
+	/*}*/
 	thead {
 		font-size: 11px;
 	}
