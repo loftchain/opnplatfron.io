@@ -109,6 +109,9 @@
 	.text_bg {
 		font-size: 62px;
 	}
+	.main-text {
+		margin: 35px 0;
+	}
 	.main-text_title {
 		font-size: 30px;
 	}
@@ -300,7 +303,6 @@
 	.social.an {
 		background-size: 35px 35px;
 	}
-
 	.social.an:hover {
 		background-size: 35px 35px;
 	}
@@ -350,19 +352,49 @@
 	.text-right-centr {
 		margin: 0;
 	}
+	.title {
+		padding-top: 75px;
+		margin-bottom: 40px;
+	}
+	.crumina-module.mt-5 {
+		margin-top: 0 !important;
+	}
+	.title_text {
+		font-size: 28px;
+		line-height: 29px;
+	}
+	.main-text {
+		margin-bottom: 50px;
+	}
+	.block_title {
+		padding: 0;
+		margin-bottom: 35px;
+	}
+	.background-contain br {
+		display: none;
+	}
+	.title_bg {
+		font-size: 90px;
+		line-height: 75px;
+	}
 	.social-1 {
 		display: none;
 	}
 	.main-text-wrap {
 		flex-direction: column;
+		align-items: flex-start;
 	}
 	.descr {
 		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 50px;
 	}
 	.descr_reverse {
 		flex-direction: column;
+		margin-bottom: 0;
 	}
 	.main-text_title {
+		text-align: left;
 		width: auto;
 		margin-right: 0;
 	}
@@ -370,15 +402,37 @@
 		width: auto;
 	}
 	.text_bg {
+		display: none;
 		line-height: 100px;
+	}
+	.main-text_desc .block_text {
+		padding: 0;
+		margin: 0;
 	}
 	.descr__text {
 		width: auto;
 	}
+	.descr_text {
+		max-width: 700px;
+		width: 100%;
+	}
+	.descr__text-img {
+		width: 220px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 55px;
+	}
 	.descr__image {
 		width: auto;
 	}
+	.descr .block_title {
+		padding: 0;
+	}
+	.title-thr {
+		padding-bottom: 0;
+	}
 	.title-thr__bg {
+		display: none;
 		font-size: 37px;
 		line-height: 58px;
 	}
@@ -390,11 +444,34 @@
 	}
 	.table__col {
 		width: auto;
-		border-right: 0px;
-		padding: 5px 15px;
+		padding: 10px 30px;
+		font-size: 20px;
+		line-height: 26px;
+		border-right: 0;
+	}
+	.table__col:nth-child(even) {
+		background-color: #f4f7fb;
+		border-radius: 5px;
 	}
 	.table__row {
-		padding: 15px 0;
+		position: relative;
+		padding: 45px 0;
+	}
+	.table__row:not(:last-of-type)::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -2px;
+		max-width: 767px;
+		width: 100%;
+		height: 1px;
+		border-bottom: 3px dotted #dde8f3;
+	}
+	.table__row:last-of-type {
+		padding-bottom: 0;
+	}
+	.table__row_gray {
+		background-color: transparent;
 	}
 	.roadmap__row1, .roadmap__row2, .roadmap__row3 {
 		display: none;

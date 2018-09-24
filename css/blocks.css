@@ -5,13 +5,18 @@
 .crumina-heading {
   position: relative;
   z-index: 5;
-  margin-bottom: 30px; }
-  .crumina-heading > *:last-child {
-    margin-bottom: 0; }
-  .crumina-heading > *:first-child {
-    margin-top: 0; }
-  .crumina-heading + * {
-    margin-top: 25px; }
+  margin-bottom: 30px;
+}
+.crumina-heading > *:last-child {
+  margin-bottom: 0;
+}
+.crumina-heading > *:first-child {
+  margin-top: 0;
+}
+.crumina-heading + *
+{
+  margin-top: 25px;
+}
 
 .heading-title {
   margin-bottom: 30px;
