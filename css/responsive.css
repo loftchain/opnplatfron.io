@@ -501,14 +501,38 @@
 	.roadmap-title-mob {
 		display: block;
 	}
-	.roadmap__col {
-		width: auto;
+	.roadmap-title-mob .roadmap__title {
+		padding: 0;
+		font-size: 20px;
 	}
-	.roadmap__title {
-		padding: 10px 0;
+	.roadmap-title-mob .roadmap__col {
+		margin-bottom: 0;
+		border-radius: 0;
 	}
 	.sub-title {
+		margin: 15px 0;
+		font-size: 20px;
 		line-height: 22px;
+		font-weight: bold;
+		color: #5691C1;
+	}
+	.roadmap__col {
+		width: auto;
+		margin-bottom: 40px;
+		padding: 15px;
+		padding-right: 5px;
+		background-color: #f5f6f8;
+		border-radius: 5px;
+	}
+	.roadmap__col:last-of-type {
+		margin-bottom: 0;
+	}
+	.roadmap__list {
+		margin: 0;
+		padding: 0;
+		padding-left: 15px;
+		font-size: 20px;
+		line-height: 24px;
 	}
 	.token-sale-str {
 		justify-content: center!important;
