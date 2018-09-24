@@ -519,10 +519,30 @@
 	.roadmap__col {
 		width: auto;
 		margin-bottom: 40px;
-		padding: 15px;
+		padding: 15px 20px 15px !important;
 		padding-right: 5px;
 		background-color: #f5f6f8;
 		border-radius: 5px;
+	}
+	.roadmap__col.bg_gray {
+		background-color: #E5E8EA;
+	}
+	.bg_gray--col {
+		background-color: #E5E8EA;
+	}
+	.roadmap__col.bg_gray--now {
+		position: relative;
+	}
+	.roadmap__col.bg_gray--now::before {
+		content: "";
+		position: absolute;
+		top: -20px;
+		left: 20px;
+		width: 42px;
+		height: 37px;
+		background-image: url(../images/des/now.png);
+		background-repeat: no-repeat;
+		background-size: contain;
 	}
 	.roadmap__col:last-of-type {
 		margin-bottom: 0;
@@ -535,10 +555,30 @@
 		line-height: 24px;
 	}
 	.token-sale-str {
-		justify-content: center!important;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
 	}
 	.token-sale-str__item {
-		width: 180px;
+		width: 100%;
+		margin: 0;
+		margin-bottom: 15px;
+		padding: 15px;
+		background-color: #dce1e5;
+		border: none;
+	}
+	.token-sale-str .h4-title {
+		margin-bottom: 0;
+		font-size: 20px;
+		line-height: 22px;
+	}
+	.token-sale-str .h3-title {
+		margin-bottom: 0;
+		font-size: 24px;
+		line-height: 26px;
+	}
+	.token-sale-str br {
+		display: none;
 	}
 	.mob-db {
 		display: none;
