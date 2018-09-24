@@ -473,6 +473,25 @@
 	.table__row_gray {
 		background-color: transparent;
 	}
+	.whitepapper {
+		flex-direction: column;
+		align-items: center;
+	}
+	.whitepapper__item {
+		max-width: 600px;
+		width: 100%;
+		padding: 0;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.whitepapper__item:last-of-type {
+		padding-bottom: 0;
+	}
+	.whitepapper__text {
+		padding-bottom: 15px;
+		font-size: 20px;
+		line-height: 30px;
+	}
 	.roadmap__row1, .roadmap__row2, .roadmap__row3 {
 		display: none;
 	}
@@ -527,17 +546,27 @@
 	.press a {
 		margin-bottom: 40px;
 	}
-	.btn-whitepapper__separator {
-		display: none;
+	.btn-whitepapper-wrap {
+		display: block;
+		max-width: 290px;
+		width: 100%;
+		margin: 0 auto;
 	}
 	.btn-whitepapper img {
-		display: none;
-	}
+		 margin-left: 0;
+	 }
 	.btn-whitepapper {
-		justify-content: center;
+		height: 80px;
 		padding: 15px 20px;
 		font-size: 20px;
 		line-height: 14px;
+	}
+	.btn-whitepapper:hover {
+		border: none;
+		padding: 15px 21px;
+	}
+	.btn-whitepapper__text {
+		font-size: 26px;
 	}
 	.verified {
 		background: #ffffff;

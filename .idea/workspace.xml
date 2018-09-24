@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="601" column="27" selection-start-line="601" selection-start-column="18" selection-end-line="601" selection-end-column="27" />
+              <caret line="658" column="40" selection-start-line="658" selection-start-column="17" selection-end-line="658" selection-end-column="40" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -34,8 +34,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="397" column="28" lean-forward="true" selection-start-line="397" selection-start-column="20" selection-end-line="397" selection-end-column="28" />
+            <state relative-caret-position="310">
+              <caret line="231" column="22" selection-start-line="231" selection-end-line="231" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="470" column="22" selection-start-line="470" selection-start-column="22" selection-end-line="470" selection-end-column="22" />
+            <state relative-caret-position="390">
+              <caret line="565" column="20" selection-start-line="565" selection-start-column="20" selection-end-line="565" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -71,11 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class=&quot;title&quot;</find>
-      <find>.title</find>
-      <find>crumina-heading</find>
-      <find>mt-5</find>
-      <find>crumina-module</find>
       <find>title-small</find>
       <find>background-contain</find>
       <find>title_text</find>
@@ -100,7 +95,12 @@
       <find>.table__row_gray</find>
       <find>title-thr</find>
       <find>title</find>
+      <find>whitepapper__text</find>
       <find>table__row</find>
+      <find>btn-whitepapper-wrap</find>
+      <find>btn-whitepapper</find>
+      <find>btn-whitepapper__text</find>
+      <find>.btn-whitepapper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,12 +187,12 @@
       <updated>1537440925238</updated>
       <workItem from="1537440927802" duration="13204000" />
       <workItem from="1537510967917" duration="19288000" />
-      <workItem from="1537771730033" duration="9931000" />
+      <workItem from="1537771730033" duration="13178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42423000" />
+    <option name="totallyTimeSpent" value="45670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -329,17 +329,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="397" column="28" lean-forward="true" selection-start-line="397" selection-start-column="20" selection-end-line="397" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="601" column="27" selection-start-line="601" selection-start-column="18" selection-end-line="601" selection-end-column="27" />
+          <caret line="658" column="40" selection-start-line="658" selection-start-column="17" selection-end-line="658" selection-end-column="40" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -351,10 +344,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="231" column="22" selection-start-line="231" selection-end-line="231" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="470" column="22" selection-start-line="470" selection-start-column="22" selection-end-line="470" selection-end-column="22" />
+        <state relative-caret-position="390">
+          <caret line="565" column="20" selection-start-line="565" selection-start-column="20" selection-end-line="565" selection-end-column="20" />
         </state>
       </provider>
     </entry>
