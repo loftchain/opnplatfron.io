@@ -404,6 +404,10 @@ img {
 	border-right: 1px dotted #dde8f3;
 	font-size: 20px;
 }
+.team__img-country {
+	width: 30px;
+	height: 30px;
+}
 .navbar {
 	font-size: 14px;
 	font-weight: 500;
@@ -1129,12 +1133,15 @@ h4.member-position {
 	font-style: normal;
 }
 
-img.linkedin_icon {
+.linkedin_icon {
 	margin-right: 10px;
-	/* width: 30px;
-	height: 30px; */
+	width: 30px;
+	height: 30px;
 }
-
+.team-block-3 .linkedin_icon,
+.team-block-4 .linkedin_icon {
+	margin-right: 0;
+}
 p.member-country {
 	font-family: 'Lato', sans-serif;
 	font-size: 14px;

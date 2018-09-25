@@ -686,7 +686,7 @@
 		margin: 0;
 		margin-bottom: 15px;
 		padding: 15px;
-		background-color: #dce1e5;
+		background-color: #DCE2E6;
 		border: none;
 	}
 	.token-sale-str .h4-title {
@@ -709,7 +709,8 @@
 		height: auto;
 	}
 	.team-block .col {
-		width: 300px;
+		max-width: 350px;
+		width: 100%;
 		flex-basis: inherit;
 		flex-grow: inherit;
 	}
@@ -720,10 +721,28 @@
 		min-height: 0;
 	}
 	.member_bottom {
+		width: 100%;
+		height: auto;
 		margin-bottom: 60px;
+	}
+	.member_bottom .gorizontal-line {
+		border-top: 1px solid #24D0DB;
+		margin: 0;
+	}
+	.gorizontal-line {
+		height: 25px;
+	}
+	.icon_company {
+		width: 230px;
 	}
 	.partners {
 		flex-direction: column;
+	}
+	.partners a {
+		padding: 30px;
+	}
+	.partners img {
+		width: 230px;
 	}
 	.press {
 		flex-direction: column;
@@ -753,6 +772,47 @@
 	}
 	.btn-whitepapper__text {
 		font-size: 26px;
+	}
+	.core-team .title-thr {
+		padding-bottom: 40px;
+	}
+	.team-block-2 {
+		margin-bottom: 0;
+	}
+	.team-block .member-name {
+		margin-top: 20px;
+		margin-bottom: 0;
+		font-size: 26px;
+		line-height: 30px;
+		font-weight: 600;
+		color: #273655;
+	}
+	.team-block .member-position {
+		margin-bottoM: 5px;
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 400;
+		color: #273655;
+	}
+	.team-block .member-country {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.team-block .member-progress {
+		text-align: center;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.team-block-4 .col:last-child {
+		padding-bottom: 0;
+	}
+	.linkedin_icon {
+		width: 50px;
+		height: 50px;
+	}
+	.team__img-country {
+		width: 50px;
+		height: 50px;
 	}
 	.verified {
 		background: #ffffff;

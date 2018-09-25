@@ -14,15 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="1188" column="63" selection-start-line="1188" selection-start-column="63" selection-end-line="1188" selection-end-column="63" />
-              <caret line="1192" column="63" selection-start-line="1192" selection-start-column="63" selection-end-line="1192" selection-end-column="63" />
-              <caret line="1196" column="63" selection-start-line="1196" selection-start-column="63" selection-end-line="1196" selection-end-column="63" />
-              <caret line="1200" column="63" selection-start-line="1200" selection-start-column="63" selection-end-line="1200" selection-end-column="63" />
-              <caret line="1204" column="63" selection-start-line="1204" selection-start-column="63" selection-end-line="1204" selection-end-column="63" />
+            <state relative-caret-position="170">
+              <caret line="1239" column="37" selection-start-line="1239" selection-start-column="29" selection-end-line="1239" selection-end-column="37" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -44,12 +40,16 @@
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#5;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#3;n#div#5;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#3;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#5;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#3;n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#3;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -59,17 +59,17 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="376" selection-start-line="376" selection-end-line="378" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="1205" column="13" selection-start-line="1205" selection-start-column="1" selection-end-line="1205" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="515" column="30" selection-start-line="515" selection-start-column="30" selection-end-line="515" selection-end-column="30" />
+            <state relative-caret-position="430">
+              <caret line="744" column="17" selection-start-line="744" selection-start-column="17" selection-end-line="744" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -96,18 +96,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>block_text</find>
-      <find>descr</find>
-      <find>.descr</find>
-      <find>.descr_reverse</find>
-      <find>title-thr__bg</find>
-      <find>.main-text_title</find>
-      <find>.main-text-wrap</find>
-      <find>.block_text</find>
-      <find>descr__text</find>
-      <find>main-text_title</find>
-      <find>table__col</find>
-      <find>.table__row</find>
       <find>table</find>
       <find>.table__row_gray</find>
       <find>title-thr</find>
@@ -126,6 +114,18 @@
       <find>token-sale-str</find>
       <find>roadmap__col</find>
       <find>table-bonus</find>
+      <find>icon_c</find>
+      <find>token-sale-str__item</find>
+      <find>linkedin_icon</find>
+      <find>img-co</find>
+      <find>300</find>
+      <find>350</find>
+      <find>link</find>
+      <find>.team-block-3 .col, .team-block-4 .col</find>
+      <find>.member_bottom</find>
+      <find>team-block</find>
+      <find>icon_company</find>
+      <find>partners</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/css/media.css" />
         <option value="$PROJECT_DIR$/css/blocks.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
   </component>
@@ -213,12 +213,12 @@
       <workItem from="1537440927802" duration="13204000" />
       <workItem from="1537510967917" duration="19288000" />
       <workItem from="1537771730033" duration="21321000" />
-      <workItem from="1537854728609" duration="9918000" />
+      <workItem from="1537854728609" duration="16981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63731000" />
+    <option name="totallyTimeSpent" value="70794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -275,12 +275,16 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#5;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#3;n#div#5;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#3;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -339,12 +343,16 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#5;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#3;n#div#5;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#3;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -403,12 +411,16 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#5;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#3;n#div#5;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#3;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -463,26 +475,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="376" selection-start-line="376" selection-end-line="378" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="515" column="30" selection-start-line="515" selection-start-column="30" selection-end-line="515" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="1205" column="13" selection-start-line="1205" selection-start-column="1" selection-end-line="1205" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="1188" column="63" selection-start-line="1188" selection-start-column="63" selection-end-line="1188" selection-end-column="63" />
-          <caret line="1192" column="63" selection-start-line="1192" selection-start-column="63" selection-end-line="1192" selection-end-column="63" />
-          <caret line="1196" column="63" selection-start-line="1196" selection-start-column="63" selection-end-line="1196" selection-end-column="63" />
-          <caret line="1200" column="63" selection-start-line="1200" selection-start-column="63" selection-end-line="1200" selection-end-column="63" />
-          <caret line="1204" column="63" selection-start-line="1204" selection-start-column="63" selection-end-line="1204" selection-end-column="63" />
+        <state relative-caret-position="170">
+          <caret line="1239" column="37" selection-start-line="1239" selection-start-column="29" selection-end-line="1239" selection-end-column="37" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -504,14 +505,25 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#5;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#3;n#div#5;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#div#5;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#3;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="744" column="17" selection-start-line="744" selection-start-column="17" selection-end-line="744" selection-end-column="17" />
         </state>
       </provider>
     </entry>
