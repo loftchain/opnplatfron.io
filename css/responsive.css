@@ -747,9 +747,13 @@
 	.press {
 		flex-direction: column;
 		align-items: center;
+		padding-bottom: 60px;
 	}
 	.press a {
 		margin-bottom: 40px;
+	}
+	.press a:last-child {
+		margin-bottom: 0;
 	}
 	.btn-whitepapper-wrap {
 		display: block;
@@ -830,6 +834,18 @@
 	}
 	footer {
 		margin-bottom: 80px;
+		background: #2ce1dc; /* Old browsers */
+		background: -moz-linear-gradient(left, #2ce1dc 0%, #0183d5 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, #2ce1dc 0%, #0183d5 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, #2ce1dc 0%, #0183d5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2ce1dc', endColorstr='#0183d5', GradientType=0); /* IE6-9 */
+	}
+	footer .logo-box img {
+		width: 220px;
+	}
+	.link-box a {
+		font-size: 22px;
+		line-height: 32px;
 	}
 }
 
