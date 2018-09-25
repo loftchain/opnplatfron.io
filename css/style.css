@@ -470,6 +470,12 @@ img {
 	margin: 20px;
 	padding: 20px;
 }
+.funds {
+	margin: 50px 0;
+}
+.funds__list {
+	display: none;
+}
 /* .navbar a {
 	color     : #083583;
 <<<<<<< HEAD
