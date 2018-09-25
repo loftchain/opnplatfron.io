@@ -374,8 +374,8 @@ img {
 	background-color: transparent;
 }
 
-.table {
-
+.bonus__list {
+	display: none;
 }
 .table-bonus .table__col {
 	color: #1d66b1;
