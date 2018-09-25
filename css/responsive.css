@@ -87,15 +87,18 @@
 	.social-box {
 		width: 93%;
 	}
-	.social {
+	.social,
+	.footer .social {
 		width: 33px;
 		height: 33px;
 	}
-	.social.an {
+	.social.an,
+	.footer .social.an{
 		background-size: 19px 19px;
 	}
 
-	.social.an:hover {
+	.social.an:hover,
+	.footer .social.an:hover {
 		background-size: 19px 19px;
 	}
 	.logo-tablet {
@@ -175,10 +178,6 @@
 	}
 	.social-footer-box .social-box {
 		margin-top: 7px;
-	}
-	.social-footer-box a {
-		width: 35px;
-		height: 35px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -846,6 +845,22 @@
 	.link-box a {
 		font-size: 22px;
 		line-height: 32px;
+	}
+	.copyright-box {
+		display: none;
+	}
+	.copyright-box--mobile {
+		display: block;
+	}
+	.contact-box .title-span,
+	.adress-box .title-span {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.contact-box a,
+	.adress-box .adress-text-span {
+		font-size: 18px;
+		line-height: 25px;
 	}
 }
 
