@@ -543,6 +543,13 @@
 		margin: 0 auto;
 		margin-bottom: 55px;
 	}
+	.descr__text-img--close {
+		width: 175px;
+		display: block;
+		margin: 0;
+		margin-right: auto;
+		margin-bottom: 55px;
+	}
 	.descr__image {
 		width: auto;
 	}
@@ -635,7 +642,18 @@
 		font-size: 20px;
 		line-height: 22px;
 		font-weight: bold;
+	}
+	.roadmap__col--first .sub-title {
 		color: #5691C1;
+	}
+	.roadmap__col--second .sub-title {
+		color: #7CAEEA;
+	}
+	.roadmap__col--third .sub-title {
+		color: #767CBB;
+	}
+	.roadmap__col--fourth .sub-title {
+		color: #4ABED2;
 	}
 	.roadmap__col {
 		width: auto;
@@ -671,7 +689,7 @@
 	.roadmap__list {
 		margin: 0;
 		padding: 0;
-		padding-left: 15px;
+		padding-left: 20px;
 		font-size: 20px;
 		line-height: 24px;
 	}
@@ -832,7 +850,7 @@
 		width: 100px;
 	}
 	footer {
-		margin-bottom: 80px;
+		margin-bottom: 40px;
 		background: #2ce1dc; /* Old browsers */
 		background: -moz-linear-gradient(left, #2ce1dc 0%, #0183d5 100%); /* FF3.6-15 */
 		background: -webkit-linear-gradient(left, #2ce1dc 0%, #0183d5 100%); /* Chrome10-25,Safari5.1-6 */
@@ -851,6 +869,12 @@
 	}
 	.copyright-box--mobile {
 		display: block;
+		margin-top: 40px;
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.contact-box {
+		margin-bottom: 25px;
 	}
 	.contact-box .title-span,
 	.adress-box .title-span {
@@ -861,6 +885,13 @@
 	.adress-box .adress-text-span {
 		font-size: 18px;
 		line-height: 25px;
+	}
+	.footer-container-3 {
+		width: 100%;
+	}
+	.footer-container-3-wrapper {
+		width: 100%;
+		text-align: left;
 	}
 }
 
