@@ -17,13 +17,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="1879" column="61" selection-start-line="1879" selection-start-column="61" selection-end-line="1879" selection-end-column="61" />
+            <state relative-caret-position="322">
+              <caret line="1714" column="49" selection-start-line="1714" selection-start-column="49" selection-end-line="1714" selection-end-column="49" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#p#1;n#div#0;n#section#0;n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -81,7 +82,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>copyright-box</find>
       <find>copyright-box-mobile</find>
       <find>social</find>
       <find>copyright-box--mobile</find>
@@ -111,6 +111,7 @@
       <find>mvp</find>
       <find>roadmap__</find>
       <find>log</find>
+      <find>partner</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,12 +202,12 @@
       <workItem from="1537771730033" duration="21321000" />
       <workItem from="1537854728609" duration="19958000" />
       <workItem from="1537943607637" duration="4784000" />
-      <workItem from="1538296109252" duration="33909000" />
+      <workItem from="1538296109252" duration="34406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112464000" />
+    <option name="totallyTimeSpent" value="112961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -247,6 +248,7 @@
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#1;n#div#0;n#section#0;n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -318,6 +320,7 @@
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#1;n#div#0;n#section#0;n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -389,6 +392,7 @@
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#1;n#div#0;n#section#0;n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -460,6 +464,7 @@
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#1;n#div#0;n#section#0;n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -531,6 +536,7 @@
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#1;n#div#0;n#section#0;n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -631,13 +637,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="1879" column="61" selection-start-line="1879" selection-start-column="61" selection-end-line="1879" selection-end-column="61" />
+        <state relative-caret-position="322">
+          <caret line="1714" column="49" selection-start-line="1714" selection-start-column="49" selection-end-line="1714" selection-end-column="49" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#1;n#div#0;n#section#0;n#div#4;n#body#0;n#html#0;n#!!top" />
