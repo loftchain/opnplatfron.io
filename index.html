@@ -306,7 +306,24 @@
                     <span>OPK Token</span>
                     CrowdSale is Live!
                 </h2>
-                <div class="opk__deadline"></div>
+                <div class="opk__deadline" id="deadline">
+                    <div>
+                        <span class="opk__days"></span>
+                        <div class="opk__smalltext">Days</div>
+                    </div>
+                    <div>
+                        <span class="opk__hours"></span>
+                        <div class="opk__smalltext">Hours</div>
+                    </div>
+                    <div>
+                        <span class="opk__minutes"></span>
+                        <div class="opk__smalltext">Minutes</div>
+                    </div>
+                    <div>
+                        <span class="opk__seconds"></span>
+                        <div class="opk__smalltext">Seconds</div>
+                    </div>
+                </div>
                 <div class="opk__date">
                     <span>TO THE END, Dec 31th, 2018</span>
                 </div>
@@ -1814,6 +1831,52 @@
 
 
 	});
+</script>
+<script>
+    $(document).ready(function () {
+        function getTimeRemaining(endtime) {
+            var t = Date.parse(endtime) - Date.parse(new Date());
+            var seconds = Math.floor((t / 1000) % 60);
+            var minutes = Math.floor((t / 1000 / 60) % 60);
+            var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+            var days = Math.floor(t / (1000 * 60 * 60 * 24));
+            return {
+                'total': t,
+                'days': days,
+                'hours': hours,
+                'minutes': minutes,
+                'seconds': seconds
+            };
+        }
+
+        function initializeClock(id, endtime) {
+            var clock = document.getElementById(id);
+            var daysSpan = clock.querySelector('.opk__days');
+            var hoursSpan = clock.querySelector('.opk__hours');
+            var minutesSpan = clock.querySelector('.opk__minutes');
+            var secondsSpan = clock.querySelector('.opk__seconds');
+
+            function updateClock() {
+                var t = getTimeRemaining(endtime);
+
+                daysSpan.innerHTML = t.days;
+                hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+                if (t.total <= 0) {
+                    clearInterval(timeinterval);
+                }
+            }
+
+            updateClock();
+            var timeinterval = setInterval(updateClock, 1000);
+        }
+
+        var deadline="Monday, December 31, 2018 11:59:59 PM";
+        var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
+        initializeClock('deadline', deadline);
+    });
 </script>
 </body>
 

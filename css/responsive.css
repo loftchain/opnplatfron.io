@@ -232,6 +232,9 @@
 
 }
 @media screen and (max-width: 767px) {
+	.first-bg {
+		min-height: 455px;
+	}
 	.nav-right {
 		flex-direction: row-reverse;
 	}
@@ -299,6 +302,10 @@
 	}
 	.opk__button {
 		margin-bottom: 20px;
+	}
+
+	.opk__deadline > div::after {
+		right: -10px;
 	}
 
 	.opk__date span::before,
@@ -1117,11 +1124,19 @@
 @media screen and (max-width: 369px) {
 	.first-bg {
 		top: 710px;
-		min-height: 535px;
+		min-height: 590px;
 	}
 
 	.opk {
 		display: block;
+	}
+
+	.opk__deadline > div {
+		width: 58px;
+	}
+
+	.opk__deadline > div::after {
+		right: -15px;
 	}
 
 	.opk__list {
