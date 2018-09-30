@@ -54,15 +54,11 @@ img {
 	background-color: #1D66B1;
 	font-weight: bold!important;
 	color: #ffffff !important;
-	margin-left: 15px;
 	cursor: pointer;
 	border: 1px solid transparent;
 }
 .mvp:hover {
 	text-decoration: none;
-	background-color: #ffffff;
-	border-color: #1D66B1;
-	color: #083583 !important;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -78,9 +74,6 @@ img {
 }
 .log:hover {
 	text-decoration: none;
-	background-color: #1D66B1;
-	border-color: #1D66B1;
-	color: #ffffff !important;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
 }
 .mvp--mobile {
@@ -458,6 +451,10 @@ img {
 	line-height: 28px;
 	font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 	color: #000000;
+}
+.roadmap__list {
+	padding: 0;
+	padding-left: 10px;
 }
 .roadmap__title {
 	color: #1d66b1;
@@ -1414,15 +1411,22 @@ footer {
 	border: none;
 	outline: none;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 .opn__button:hover {
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+	text-decoration: none;
 }
 
 .opn__button--white {
+	text-align: center;
 	color: #ffffff;
 	background-color: #1d66b1;
+}
+
+.opn__button--white:hover {
+	color: #ffffff;
 }
 
 .opn__button--how {
@@ -1431,6 +1435,10 @@ footer {
 	color: #e23369;
 	background-color: transparent;
 	border: 1px solid #e23369;
+}
+
+.opn__button--how:hover {
+	color: #e23369;
 }
 
 .opn__button--how::before {
@@ -1628,8 +1636,12 @@ footer {
 	background-color: #e23369;
 	border: none;
 	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
 }
 
 .opk__button:hover {
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+	color: #ffffff;
+	text-decoration: none;
 }
