@@ -183,7 +183,7 @@
 	/* MY NEW SECTION */
 	.first-bg {
 		position: absolute;
-		top: 630px;
+		top: 625px;
 		background-color: #1D66B1;
 		min-height: 400px;
 		width: 100%;
@@ -227,7 +227,7 @@
 	}
 
 	.opk__date {
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 }
@@ -270,8 +270,13 @@
 		margin-bottom: 20px;
 	}
 
+	.opn__button--how {
+		padding-right: 55px;
+		text-align: right;
+	}
+
 	.opn__button--how::before {
-		left: 35px;
+		left: 50px;
 	}
 
 	.opn__join-text {
@@ -310,7 +315,7 @@
 
 	.opk__date span::before,
 	.opk__date span::after {
-		width: 40px;
+		width: 50px;
 	}
 
 	.opk__join-text {
@@ -1124,7 +1129,7 @@
 @media screen and (max-width: 369px) {
 	.first-bg {
 		top: 710px;
-		min-height: 590px;
+		min-height: 600px;
 	}
 
 	.opk {
