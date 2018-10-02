@@ -386,6 +386,88 @@ img {
 	background-color: transparent;
 }
 
+/* new style of bonus section */
+
+body.modal-open {
+	background-color: #3396EF;
+}
+
+.bonus .modal-dialog {
+	max-width: 1000px;
+}
+
+.bonus .modal-header {
+	border-bottom: none;
+}
+
+.bonus__button-open {
+	background-color: #1d66b1;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 20px;
+	color: #ffffff;
+	width: 220px;
+	outline: none;
+}
+
+.bonus__button-open:hover {
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bonus .bonus__header-close {
+	outline: none;
+}
+
+.bonus__header-close span {
+	display: inline-block;
+	width: 30px;
+	height: 35px;
+	background-image: url(../images/bonus-close.png);
+	background-repeat: no-repeat;
+	background-pozition: center;
+}
+
+.bonus .title-thr {
+	padding: 0;
+	padding-bottom: 30px;
+}
+
+.bonus .title-thr__text {
+	font-weight: 400;
+}
+
+.bonus .title-thr__bg {
+	bottom: 20px;
+	font-size: 90px;
+	font-weight: 400;
+}
+
+.bonus .table__col--head {
+	border-right: none;
+	line-height: 24px;
+}
+
+.bonus .modal-footer {
+	justify-content: center;
+	border-top: none;
+}
+
+.bonus__footer-close {
+	font-size: 18px;
+	line-height: 20px;
+	padding: 15px;
+	width: 120px;
+	color: #ffffff;
+	background-color: #1D66B1;
+}
+
+.bonus__footer-close {
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* new style of bonus section */
+
+
 .bonus__list {
 	display: none;
 }
@@ -405,6 +487,7 @@ img {
 }
 .table__row {
 	display: flex;
+	align-items: flex-end;
 }
 .table__row_gray {
 	background-color: #f4f7fb;
@@ -412,7 +495,7 @@ img {
 .table__col {
 	width: 25%;
 	color: #9aacb8;
-	padding: 20px;
+	padding: 15px;
 	border-right: 1px dotted #dde8f3;
 	font-size: 20px;
 }
@@ -494,26 +577,11 @@ img {
 }
 .funds {
 	margin: 50px 0;
+	margin-bottom: 80px;
 }
 .funds__list {
 	display: none;
 }
-/* .navbar a {
-	color     : #083583;
-<<<<<<< HEAD
-	margin    : 0;
-=======
-	/* margin    : 0px 15px; */
-/* >>>>>>> be5c03f3f4aa406bcf0f9b3c7d1a75823eece9e1
-	min-width : max-content;
-} */
-
-/* img.bg-wrapper {
-	width    : 753px;
-	height   : 731px;
-	position : absolute;
-	right    : 0;
-} */
 
 .btn-bluline {
 	background: transparent;
