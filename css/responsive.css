@@ -64,6 +64,23 @@
 	display: none;
 }
 @media screen and (max-width: 1199px) {
+
+	/* new style of bonus section */
+
+	.bonus .modal-dialog {
+		max-width: 740px;
+	}
+
+	.bonus .title-thr__text {
+		font-size: 30px;
+	}
+
+	.bonus .title-thr__bg {
+		font-size: 70px;
+	}
+
+	/* new style of bonus section */
+
 	.nav-kost {
 		display: flex;
 	}
@@ -379,6 +396,14 @@
 		background-size: 26px 25px;
 		background-position: center;
 	}
+
+	/* new style of bonus section */
+	.bonus__modal,
+	.bonus__button-open {
+		display: none;
+	}
+
+	/* new style of bonus section */
 
 	.logo-tablet {
 		display: none;
@@ -782,6 +807,9 @@
 	.table__col:nth-child(even) {
 		background-color: #f4f7fb;
 		border-radius: 5px;
+	}
+	.b2b .table__col {
+		width: 100%;
 	}
 	.table__row {
 		position: relative;
