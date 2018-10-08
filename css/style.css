@@ -471,9 +471,6 @@ body.modal-open {
 	font-size: 20px;
 	line-height: 16px;
 }
-.modal .table__row:nth-child(3) .table__col {
-	color: #ffffff;
-}
 
 .table-bonus_title {
 	font-weight: bold;
@@ -491,9 +488,26 @@ body.modal-open {
 .table__row_gray {
 	background-color: #f4f7fb;
 }
-
+.modal .table__row {
+	border-radius: 5px;
+}
 .modal .table__row:nth-child(3) {
+	z-index: 1000;
 	background-color: #E23369;
+	box-shadow: 5px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal .table__row:nth-child(3) .table__col {
+	color: #ffffff;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal .table__row:nth-child(3) .table__col:first-child {
+	border-radius: 5px 0 0 5px;
+}
+
+.modal .table__row:nth-child(3) .table__col:last-child {
+	border-radius: 0 5px 5px 0;
 }
 .table__col {
 	width: 25%;
