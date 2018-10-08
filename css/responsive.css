@@ -200,7 +200,7 @@
 	/* MY NEW SECTION */
 	.first-bg {
 		position: absolute;
-		top: 625px;
+		top: 700px;
 		background-color: #1D66B1;
 		min-height: 400px;
 		width: 100%;
@@ -238,7 +238,7 @@
 		width: 100%;
 		margin-top: 0;
 		margin-right: 0;
-		padding-top: 50px;
+		padding-top: 55px;
 		padding-bottom: 0;
 		background-image: none;
 	}
@@ -266,7 +266,7 @@
 	}
 
 	.first-bg {
-		top: 660px;
+		top: 760px;
 	}
 	.opn {
 		padding-top: 0;
@@ -291,6 +291,15 @@
 
 	.opn__button--how::before {
 		left: 50px;
+	}
+	.opn .bonus__button-open {
+		display: none;
+	}
+	.opn .bonus__button-open--mobile {
+		display: block;
+		width: 290px;
+		margin-top: 0;
+		margin-bottom: 20px;
 	}
 
 	.opn__join-text {
@@ -401,6 +410,23 @@
 	.bonus__modal,
 	.bonus__button-open {
 		display: none;
+	}
+
+	.bonus__block-mobile {
+		display: block;
+	}
+	.bonus__block-mobile h3 {
+		margin-top: 40px;
+		font-size: 38px;
+		line-height: 45px;
+		color: #9AACB8;
+	}
+
+	.bonus__block-mobile p {
+		margin-bottom: 0;
+		font-size: 24px;
+		line-height: 34px;
+		color: #E23369;
 	}
 
 	/* new style of bonus section */
@@ -729,6 +755,10 @@
 	}
 	.bonus__table tr:nth-child(odd) {
 		background-color: #DCE2E6;
+	}
+	.bonus__table tr:nth-child(2) {
+		background-color: #E23369;
+		color: #ffffff;
 	}
 	.bonus__table-cell {
 		padding: 14px 25px;
@@ -1138,7 +1168,8 @@
 		margin-bottom: 35px;
 	}
 	.first-bg {
-		top: 670px;
+		top: 740px;
+		min-height: 540px;
 	}
 	.opn__title {
 		font-size: 32px;
@@ -1152,11 +1183,17 @@
 	.opk {
 		padding-top: 75px;
 	}
+
+	.opk__item a {
+		align-items: center;
+		width: 85px;
+		margin-bottom: 20px;
+	}
 }
 
 @media screen and (max-width: 369px) {
 	.first-bg {
-		top: 710px;
+		top: 785px;
 		min-height: 600px;
 	}
 
@@ -1176,9 +1213,7 @@
 		justify-content: space-around;
 	}
 
-	.opk__item a {
-		align-items: center;
-		width: 80px;
-		margin-bottom: 20px;
+	.opk__icon {
+		font-size: 30px;
 	}
 }
