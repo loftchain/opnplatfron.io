@@ -909,13 +909,13 @@ h2 {
 	background-size: contain;
 }
 
-.social.m {
-	background: url('../images/m_d.svg') no-repeat;
+.social.t {
+	background: url('../images/t_h.svg') no-repeat;
 	background-size: contain;
 }
 
-.social.m:hover {
-	background: url('../images/m_h.svg') no-repeat;
+.social.t:hover {
+	background: url('../images/t_d.svg') no-repeat;
 	background-size: contain;
 }
 
@@ -1612,17 +1612,14 @@ footer {
 }
 
 .opn__item--steemit a {
-	background-image: url(../images/steem.png);
+	background-image: url(../images/steemit-icon.svg);
 	background-repeat: no-repeat;
 	background-size: 25px 25px;
 	background-position: center;
 }
 
 .opn__item--steemit a:hover {
-	background-image: url(../images/steem-hover.png);
-	background-repeat: no-repeat;
-	background-size: 26px 25px;
-	background-position: center;
+	background-image: url(../images/steemit2-icon.svg);
 }
 
 .opn__mvp {
